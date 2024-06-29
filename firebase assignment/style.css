@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSKfnqabcQGQOiqPOxlV5tI0GApOzyQvmEL7W0hJeqWOUHyQFY7C-muw9pVpEywZYZoqLtQyG9gRPE1NXiFX2g'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+#auth_container, #user_container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+input[type="email"], input[type="password"], button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#auth_container h3, #user_container h1 {
+    margin-top: 0;
+}
+
+#user_container {
+    display: none; /* Initially hide user container */
+}
